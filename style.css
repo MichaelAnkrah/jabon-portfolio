@@ -1,0 +1,277 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: cursive, 'Open Sans', 'Helvetica Neue', sans-serif;
+    line-height: 1.5;
+    background-color: #ccc;
+}
+
+.all {
+    max-width: 1090px;
+    margin: 0 auto;
+    padding: 0 10px;
+}
+
+/* Global Ends Here */
+
+.navbar ul {
+    display: flex;
+    min-height: 50px;
+    justify-content: end;
+    align-items: center;
+}
+
+li  {
+    list-style-type: none;
+    text-align:end;
+    margin: 0 10px;
+
+}
+
+.navbar a {
+    text-decoration: none;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-family: cursive;
+    min-height:65vh;
+    width: 100%;
+}
+
+.header img {
+    border-radius: 50%;
+    margin: 20px auto;
+}
+
+.header p {
+    margin-left: 15%;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+main {
+    color: white;
+    background-color: rgb(114, 113, 194);
+}
+
+main .who {
+    font-weight: bold;
+    font-size: 35px;
+    padding-bottom: 50px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+/* Header Ends Here */
+
+.about-me h2 {
+    margin-top: 20px;
+}
+
+.about-me .flex {
+    font-family:Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 30px;
+}
+
+.about-me .firstp {
+    margin-top: 20px;
+    
+}
+
+.stretch {
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 10px;
+    background-color: rgb(114, 113, 194);
+    color: white;
+}
+
+.resume {
+    margin: 20px 5px;
+}
+
+.move {
+    margin: 20px 5px;
+    border-bottom: rgb(114, 113, 194) solid 2px;
+    width: 1.5em;
+}
+
+.space {
+    margin: 5px 0;
+    color: rgb(114, 113, 194);
+}
+
+.expert {
+    display: flex;
+    margin: 20px; 
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+/* End of About ME */
+
+.stretch {
+    margin: 50px 0;
+}
+
+.html1{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 10px;
+}
+
+.html2 {
+    background: rgb(100, 97, 97);
+    border-radius: 30px;
+}
+
+.html3 {
+    width: 80%;
+    height: 20px;
+    background: greenyellow;
+    border-radius: 30px;
+}
+
+.html6{
+    width: 70%;
+    height: 20px;
+    background: rgb(73, 131, 141);
+    border-radius: 30px;
+}
+
+.html9{
+    width: 10%;
+    height: 20px;
+    background: rgb(72, 161, 84);
+    border-radius: 30px;
+}
+
+/* End of my skills */
+
+.services {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.services h2 {
+    margin-bottom: 15px;
+    color: rgb(114, 113, 194);
+
+}
+
+/* End of my services */
+
+.portfolio {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.portfolio img {
+    width: 210px;
+    height: 200px;
+    margin: 0 20px;
+}
+
+/* End of Projects */
+
+.form-container input {
+    width: 100%;
+    margin: 10px 0;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 10px;
+    height: 50px;
+}
+
+.form-container .sub {
+    align-items: center;
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px 10px;
+}
+
+.form-container .submit {
+    background: rgb(114, 113, 194);
+    color: white;
+    cursor: pointer;
+}
+
+/* End of form */
+
+.touch {
+    display: block;
+
+}
+
+.phone {
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    margin: 25px 0;
+}
+
+.phone img {
+    margin-right: 50px;
+}
+
+.foot {
+    background-color: rgb(114, 113, 194);
+    margin-top: 15px;
+}
+
+.pics img {
+    margin: 10px 20px 0 0;
+}
+
+.copyright {
+     min-height: 100px;
+     background-color: #ccc;
+     color: black;
+     font-weight: bold;
+     font-size: 20px;
+     text-align: center;
+     margin-top:50px;
+     padding: 50px;
+}
+
+/* End of Get In Touch */
+
+@media (max-width: 768px) {
+
+    .all {
+        width: 100%;
+    }
+
+    .header {
+        min-height: 100%;
+        min-width: 100%;
+    }
+
+    .about-me .flex {
+        display: block;
+    }
+
+    .portfolio {
+        display: block;
+    }
+
+    .portfolio img {
+        width: 100%;
+        margin: 10px 0;
+    }
+
+    .foot {
+    min-height: 500px;
+    }
+}
